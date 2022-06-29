@@ -7,10 +7,10 @@ import { OrderComponent } from './order/order.component';
 
 
 const routes: Routes = [
-  {path: "Home", component: HomeComponent},
-  {path: "Aboutus", component: AboutusComponent},
-  {path: "Menu", component: MenuComponent},
-  {path: "Order", component: OrderComponent}
+  {path: "", component: HomeComponent},
+  {path: "aboutus", component: AboutusComponent},
+  {path: "menu", component: MenuComponent},
+  {path: "order", component: OrderComponent}
 ];
 
 @NgModule({
