@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Diplomata+SC&family=Gulzar&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+.aboutus {
+    height: 500px;
+    background-image: url("../../assets/aboutus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.ordercont {
+    height: 400px;
+    width: 550px;
+    background-color: black;
+    border-radius: 20% 20% 20% 20%;
+    contain: content;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    color: white;
+}
+hr {
+    color: white;
+}
+p {
+    text-align: center;
+    color: white;
+    
+}
+.icon {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+.contact {
+    height: 50px;
+    display: flex;
+
+}
+i {
+    padding: 10px;
+    
+}

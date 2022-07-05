@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+
 .hero {
     height: 500px;
     background-image: url("../../assets/restaurante.jpg");
@@ -11,11 +12,11 @@
 }
     h1 {
         text-align: center;
-        color: white;
+        color: gold;
         font-family: 'Happy Monkey', cursive;
         font-family: 'Smooch', cursive;
         font-family: 'The Nautigal', cursive;
-        font-size: 80px;
+        font-size: 100px;
         
     }
     h3 {
@@ -35,7 +36,7 @@
     margin-top: 0;
 }
 .usphead {
-    color: black;
+    color: green;
 }
 .bookbtn {
     margin-left: 20px;
@@ -49,4 +50,6 @@
 h4 {
     text-decoration: underline;
     text-decoration-color: green;
+    color: green;
+    font-family: 'Abril Fatface', cursive;
 }

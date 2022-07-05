@@ -11,7 +11,7 @@ quantity: 1
 name: "Pasta al rosso",
 description: "Pasta with tomatosauce",
 price: 10,
-image: "./assets/pasta rosso.jpg",
+image: "./assets/pestorosso.jpg",
 availability: false,
 quantity: 2
 },
@@ -19,7 +19,7 @@ quantity: 2
     name: "Pasta Carbonara",
     description: "Pasta with ham and egg sauce",
     price: 9,
-    image: "",
+    image: "./assets/carbonara.jpg",
     availability: true,
     quantity: 3
 },
@@ -27,7 +27,7 @@ quantity: 2
     name: "Pizza",
     description: "Everyone knows Pizza",
     price: 8,
-    image: "",
+    image: "./assets/pizza.jpg",
     availability: true,
     quantity: 5
 },
@@ -35,7 +35,7 @@ quantity: 2
     name: "Pizza vegana",
     description: "Pizza without meat",
     price: 4,
-    image: "",
+    image: "./assets/pizzavegana.jpg",
     availability: false,
     quantity: 3
 },
@@ -43,7 +43,7 @@ quantity: 2
     name: "Lasagne",
     description: "Delicious food consists of layers of pasta, sauce, and a filling such as meat or cheese, baked in an oven.",
     price: 15,
-    image: "",
+    image: "./assets/lasagne.jpg",
     availability: true,
     quantity: 3
 }
