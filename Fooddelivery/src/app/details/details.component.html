@@ -1,1 +1,17 @@
-<p>details works!</p>
+<div class="container-fluid">
+    <div class="row row-cols-1 g-md-3 m-2 menu">
+        <div class="col" *ngIf="meal">
+            <div class="card h-80">
+                <img class="card-img-top img-cover cardimage" src="{{meal.image}}">
+                <div class="card-body">
+                  <h4 class="card-title" >{{meal.name}}</h4>
+                  <p class="card-text des">{{meal.description}}</p>
+                  <p class="card-text">{{meal.price}}</p>
+                  <hr>
+                  <button *ngIf="meal.availability==true" class="btn btn-success ms-2">Order</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

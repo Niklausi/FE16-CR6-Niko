@@ -1,3 +1,41 @@
-.restusp {
-    height: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Happy+Monkey&family=Smooch&family=The+Nautigal&display=swap');
+.aboutus {
+    height: 500px;
+    background-image: url("../../assets/aboutus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.aboutheader h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Diplomata SC', cursive;
+}
+.aboutcont {
+    height: 400px;
+    width: 550px;
+    background-color: black;
+    border-radius: 20% 20% 20% 20%;
+    contain: content;
+    border: 2px solid black;
+    background-position: center;
+    background-size: cover;
+    
+}
+h3 {
+    font-family: 'Happy Monkey', cursive;
+    text-decoration: underline;
+    text-align: center;
+    color: silver;
+}
+.content {
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: white
+
+}
+.headdesign {
+    text-shadow: red 0 -4px;
 }

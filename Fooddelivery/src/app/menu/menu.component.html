@@ -1,1 +1,23 @@
-<p>menu works!</p>
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-md-3 m-2 menu">
+        <div class="col" *ngFor="let meal of meals; index as id">
+            <div class="card h-80">
+                <img class="card-img-top img-cover cardimage" src="{{meal.image}}">
+                <div class="card-body">
+                  <h4 class="card-title" >{{meal.name}}</h4>
+                  <p class="card-text des">{{meal.description}}</p>
+                  <p class="card-text">{{meal.price}}</p>
+                  <hr>
+                  <button *ngIf="meal.availability==true" class="btn btn-primary"routerLink="/products/{{id}}">Detail</button>
+                  <!-- <button *ngIf="meal.availability==true" class="btnVaccine" (click)="addToCart(id)">Order</button> -->
+                  <button *ngIf="meal.availability==true" class="btn btn-success ms-2">Order</button>
+                  <h4 *ngIf="meal.availability==false" class="text-center">Meal is not available</h4>
+                  
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
